@@ -1,0 +1,47 @@
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;      
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center; /* Center align text within the container */
+    }
+
+    h1 {
+      color: #0077cc; /* Example color, adjust as needed */
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .surf-score {
+      font-size: 48px;
+      font-weight: bold;
+      color: #009933; /* Example color, adjust as needed */
+      margin-bottom: 20px;
+    }
+
+    .forecast-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+      gap: 20px;
+    }
+
+    .detail-tile {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      text-align: left; /* Align text to the left within each tile */
+    }
+
+    .detail-tile strong {
+      display: block; /* Makes the label take up the full width */
+      margin-bottom: 5px;
+    }
